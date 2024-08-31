@@ -1,0 +1,55 @@
+#modalDiv{
+    position: relative;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    gap: 15px;
+    border: 1px solid black;
+    justify-content: center;
+}
+#newValue{
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.close{
+    font-size: 1rem;
+    background-color: red;
+    opacity: 50%;
+    width: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    color: white;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+#saveBttn{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: green;
+ 
+}
+
+.alert{
+    height: 30px;
+    border: 1px solid gray;
+    width: 80%;
+    background-color: red;
+}
+
+.static{
+    background-color: green;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
